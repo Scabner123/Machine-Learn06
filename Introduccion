@@ -1,0 +1,13 @@
+# INTRODUCCIÓN Y JUSTIFICACIÓN
+
+# Tarea: Aplicación de técnica de aprendizaje no supervisado (K-Means).
+# Técnica Aplicada: Análisis de Clusters utilizando K-Means.
+
+# Justificación: El objetivo es complementar el modelo de scoring supervisado
+# (regresión logística, por ejemplo) mediante la identificación de segmentos
+# de clientes (clusters) con características demográficas y de crédito homogéneas.
+
+# La meta es analizar si estos segmentos presentan una tasa de morosidad ('TARGET')
+# significativamente diferente. Si es así, la etiqueta del cluster (Cluster_ID)
+# se incorporará como una feature adicional para mejorar la capacidad predictiva
+# del modelo supervisado.
